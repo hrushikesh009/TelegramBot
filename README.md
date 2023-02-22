@@ -16,7 +16,7 @@ To get this running, you need the following. First install dependencies
 
 ### Step 0 : Clone the Repository
 
-`git clone <repository_name_link>`
+`git clone https://github.com/hrushikesh009/TelegramBot.git`
 
 
 ### Step 1 : Install dependencies
@@ -30,13 +30,21 @@ In this tutorial, I utilized the MySQL Database as I already had MySQL client se
 You have to install the Mysql client and set up a simple database with user and password privileges
 
 `DATABASES = {
+
     'default': {
+    
         'ENGINE': 'django.db.backends.mysql',
+        
         'NAME': 'Your Database Name',
+        
         'HOST': 'localhost', # usually its localhost but if you have a cloud host specific it over here
+        
         'USER': 'Database Username',
+        
         'PASSWORD': Database Passwordd,
+        
         'PORT': 'Database Port'
+        
     }
 }`
 
@@ -46,6 +54,7 @@ https://stackpython.medium.com/how-to-start-django-project-with-a-database-postg
 ### Step 3 : Run migrations
 
 `python manage.py makemigrations`
+
 `python manage.py migrate`
 
 This will setup all the necessary tables.
@@ -93,7 +102,7 @@ You should now be able to talk to the bot and get responses from it
 
 Once the Users start interacting with the bot the data will be captured in the database.
 
-If you visit <ngrok_url>/chat/home/ 
+If you visit `url = <ngrok_url>/chat/home/` 
 
 You would be able to view all the users using your bot and their interactions with the bot.
 
