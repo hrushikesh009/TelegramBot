@@ -9,6 +9,10 @@ This is a simple bot that says yo-mama jokes borrowing heavilly from https://git
 - pip install virtualenv to install virtual environment
 - Telegram messenger (you can also use the web version at web.telegram.org)
 
+### Sample Video
+
+https://drive.google.com/drive/folders/1o0xK000ZToAbwljM81HhWx5-JplOcNft?usp=sharing
+
 
 ## What to do
 
@@ -105,4 +109,6 @@ Once the Users start interacting with the bot the data will be captured in the d
 If you visit `url = <ngrok_url>/chat/home/` 
 
 You would be able to view all the users using your bot and their interactions with the bot.
+
+
 
