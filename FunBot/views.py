@@ -38,7 +38,6 @@ end_conversation = ['Bye','Goodbye','See you later']
 
 def capture_click_stream(user_id,button_id,username=None):
     try:
-        print(user_id,button_id,username)
         instance = UserActivityTracker(user_id=user_id,
                             username=username,
                             button_id = button_id)
