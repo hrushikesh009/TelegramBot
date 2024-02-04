@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class UserActivityTracker(models.Model):
     user_id = models.BigIntegerField()
     button_id = models.IntegerField()
